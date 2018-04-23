@@ -12,7 +12,7 @@ class MainViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        addChildViewControllers()
         // Do any additional setup after loading the view.
     }
 
@@ -26,8 +26,16 @@ class MainViewController: UITabBarController {
 
 extension MainViewController {
 
-    /// 添加 
-    private func addChildViewController() {
+    func addChildViewControllers() {
+        UITabBar.appearance().tintColor = UIColor.orange
+        addChildViewController(controller: HomeTableViewController(), title: "首页", imageName: "toolBar_3")
+    }
 
+    /// 添加控制器
+    private func addChildViewController(controller: UIViewController, title: String, imageName: String) {
+        controller.title = title
+        controller.tabBarItem.image = UIImage(named: imageName)
+        let nav = UINavigationController(rootViewController: controller)
+        addChildViewController(nav)
     }
 }

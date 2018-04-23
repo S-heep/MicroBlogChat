@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F108749A208DFD8A009F26A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1087499208DFD8A009F26A5 /* Assets.xcassets */; };
 		F1412841208760380004C610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1412840208760380004C610 /* AppDelegate.swift */; };
-		F1412843208760380004C610 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1412842208760380004C610 /* ViewController.swift */; };
 		F141284B2087603B0004C610 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14128492087603B0004C610 /* LaunchScreen.storyboard */; };
 		F141285D208770660004C610 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F141285C208770660004C610 /* MainViewController.swift */; };
 		F141285F2087738C0004C610 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F141285E2087738C0004C610 /* HomeTableViewController.swift */; };
@@ -18,10 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F1087499208DFD8A009F26A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F141283D208760380004C610 /* MicroChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1412840208760380004C610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1412842208760380004C610 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F14128472087603B0004C610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F141284A2087603B0004C610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F141284C2087603B0004C610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F141285C208770660004C610 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -63,10 +62,9 @@
 			children = (
 				F141285220876E8A0004C610 /* Classes */,
 				F1412840208760380004C610 /* AppDelegate.swift */,
-				F1412842208760380004C610 /* ViewController.swift */,
-				F14128472087603B0004C610 /* Assets.xcassets */,
 				F14128492087603B0004C610 /* LaunchScreen.storyboard */,
 				F141284C2087603B0004C610 /* Info.plist */,
+				F1087499208DFD8A009F26A5 /* Assets.xcassets */,
 			);
 			path = MicroChat;
 			sourceTree = "<group>";
@@ -213,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F108749A208DFD8A009F26A5 /* Assets.xcassets in Resources */,
 				F141284B2087603B0004C610 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +228,6 @@
 				F141285F2087738C0004C610 /* HomeTableViewController.swift in Sources */,
 				F141285D208770660004C610 /* MainViewController.swift in Sources */,
 				F1412861208773AA0004C610 /* MessageTableViewController.swift in Sources */,
-				F1412843208760380004C610 /* ViewController.swift in Sources */,
 				F1412841208760380004C610 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
